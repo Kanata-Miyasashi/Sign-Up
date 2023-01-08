@@ -14,5 +14,5 @@ function signUp(){
     
 // Go to Login
     function goToLogin(){
-        window.open("","_self")
+        window.open("https://kanata-miyasashi.github.io/Login/","_self")
     }
