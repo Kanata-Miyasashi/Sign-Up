@@ -7,12 +7,7 @@ function signUp(){
     localStorage.setItem("Username: ", username);
     localStorage.setItem("Email: ", email);
     localStorage.setItem("Password: ", password);
-    goToLogin()
+    window.open("https://kanata-miyasashi.github.io/Login/","_self")
     }
 
 
-    
-// Go to Login
-    function goToLogin(){
-        window.open("https://kanata-miyasashi.github.io/Login/","_self")
-    }
